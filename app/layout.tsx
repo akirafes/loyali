@@ -19,6 +19,10 @@ export default function RootLayout({
 }) {
   return (
       <html lang="en">
+      <head>
+          <link rel="manifest" href="https://progressier.app/1ghPAYd9vrcctQmmKckA/progressier.json"/>
+          <script defer src="https://progressier.app/1ghPAYd9vrcctQmmKckA/script.js"></script>
+      </head>
       <body className={`${inter.className} antialiased`}>{children}</body>
       </html>
   );
