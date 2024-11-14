@@ -5,7 +5,8 @@ export default function AcmeLogo() {
     <div
       className={`flex flex-row items-center content-center leading-none text-white`}
     >
-      <Logo className="h-32 w-44" />
+      <Logo className="h-16 w-44 md:h-32" />
     </div>
   );
 }
+// 44-32
