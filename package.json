@@ -1,5 +1,7 @@
 {
   "private": true,
+  "name": "nextjs-loyali-poc-site",
+  "homepage": "https://loyali.vercel.app/",
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbo",
